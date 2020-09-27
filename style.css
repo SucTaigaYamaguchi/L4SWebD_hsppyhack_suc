@@ -298,6 +298,20 @@ ul {
     padding-bottom: 45px;
 }
 
+.slick-1 {
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.slick-1 img {
+    width: 100%;
+    height: auto;
+}
 
 #footer p{
     font-size: 14px;

@@ -243,10 +243,9 @@ ul {
 }
 
 .courses-content a {
-            display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-
     padding: 10px 0;
     border-radius: 12px;
     text-decoration: none;
@@ -254,39 +253,39 @@ ul {
     font-size: 13px;
     font-family: 'HiraginoSans-W3', sans-serif;
     font-weight: 600;
-
 }
+
 .courses-content a:hover {
-        box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px gray;
     transition: .3s;
 }
 
 .html {
-    background-color: rgb(225,110,60);
+    background-color: rgb(225, 110, 60);
 }
 
 .css {
-    background-color: rgb(82,168,217);
+    background-color: rgb(82, 168, 217);
 }
 
 .unity {
-    background-color: rgb(51,51,51);
+    background-color: rgb(51, 51, 51);
 }
 
 .ruby {
-    background-color: rgb(237,95,89);
+    background-color: rgb(237, 95, 89);
 }
 
 .js {
-    background-color: rgb(249,215,73);
+    background-color: rgb(249, 215, 73);
 }
 
 .swift {
-    background-color: rgb(237,125,71);
+    background-color: rgb(237, 125, 71);
 }
 
 .go {
-    background-color: rgb(137,205,219);
+    background-color: rgb(137, 205, 219);
 }
 
 #Access iframe {
@@ -313,11 +312,11 @@ ul {
     height: auto;
 }
 
-#footer p{
+#footer p {
     font-size: 14px;
-      font-family: 'HiraginoSans-W3', sans-serif;
+    font-family: 'HiraginoSans-W3', sans-serif;
     font-weight: 100;
-    color:#3d5cdb;
+    color: #3d5cdb;
     margin: 25px 0;
     text-align: center;
 }

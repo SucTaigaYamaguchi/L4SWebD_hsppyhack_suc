@@ -300,10 +300,15 @@ ul {
 .slick-1 {
     margin: 100px auto;
     width: 80%;
+/*
     position: relative;
+    display: block;
+*/
+/*
     display: flex;
     justify-content: center;
     align-items: center;
+*/
     height: auto;
 }
 

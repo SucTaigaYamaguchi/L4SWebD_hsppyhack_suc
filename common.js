@@ -1,7 +1,6 @@
     $('.slick-1').slick({
         centerMode: true,
-        autoplay :false,
-        centerPadding :'100px',
+//        autoplay :false,
         dots:true,
         arrows :true,
         slidesToShow :4,

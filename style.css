@@ -297,14 +297,16 @@ ul {
     padding-bottom: 45px;
 }
 
-.slick-1 {
-    margin: 100px auto;
+
+
+.slider {
+    margin: 30px auto;
     width: 80%;
-/*
+    /*
     position: relative;
     display: block;
 */
-/*
+    /*
     display: flex;
     justify-content: center;
     align-items: center;
@@ -312,16 +314,20 @@ ul {
     height: auto;
 }
 
-.slick-1 img {
+.slider img {
     width: 100%;
     height: auto;
 }
-
 
 .slick-prev:before,
 .slick-next:before {
     color: #000;
 }
+
+
+
+
+
 
 #footer p {
     font-size: 14px;

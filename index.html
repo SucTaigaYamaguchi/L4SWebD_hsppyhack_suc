@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <script src="jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" 　href="slick.css" />
-    <!--      <link rel="stylesheet" 　href="slick-theme.css" />-->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
-
+    <link rel="stylesheet" 　href="slick/slick.css">
+    <link rel="stylesheet" 　href="slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
     <title>Happy Hack</title>
-    <script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/jquery.bgswitcher.js"></script>
     <script src="js/particles.min.js"></script>
     <script defer src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script defer src="common.js"></script>
+    <!--    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>-->
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!--    <script src="slick/slick.min.js"></script>-->
+<!--    <script defer src="slick/common.js"></script>-->
 
 </head>
 
@@ -150,24 +150,24 @@
         </div>
         <div id="Images">
             <h2>Images</h2>
-            <ul class="slick-1">
-<!--                <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>-->
+            <ul class="slider">
+                <!--                <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>-->
                 <li>
-                    <img alt="画像1" src="images/hero.jpg" />
+                    <a href="#"><img alt="画像1" src="images/hero.jpg" /></a>
                 </li>
                 <li>
-                    <img alt="画像2" src="images/background2.jpg" />
+                    <a href="#"><img alt="画像2" src="images/background2.jpg" /></a>
                 </li>
                 <li>
-                    <img alt="画像3" src="images/background3.jpg" />
+                    <a href="#"><img alt="画像3" src="images/background3.jpg" /></a>
                 </li>
                 <li>
-                    <img alt="画像4" src="images/background4.jpg" />
+                    <a href="#"><img alt="画像4" src="images/background4.jpg" /></a>
                 </li>
                 <li>
-                    <img alt="画像5" src="images/background5.jpg" />
+                    <a href="#"><img alt="画像5" src="images/background5.jpg" /></a>
                 </li>
-<!--                <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>-->
+                <!--                <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>-->
             </ul>
         </div>
         <div id="Access">
@@ -181,7 +181,7 @@
     </div>
 
     <script type="text/javascript" src="js/jquery.bgswitcher.js"></script>
-    <script type="text/javascript">
+    <script defer type="text/javascript">
         $(document).ready(function() {
             $(".main-visuall").bgswitcher({
                 images: [
@@ -198,6 +198,8 @@
             });
         });
     </script>
+        <script src="slick/slick.min.js"></script>
+            <script defer src="slick/common.js"></script>
 </body>
 
 </html>

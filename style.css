@@ -299,31 +299,39 @@ ul {
 
 
 
+/*
 .slider {
     margin: 30px auto;
     width: 80%;
-    /*
-    position: relative;
-    display: block;
-*/
-    /*
-    display: flex;
-    justify-content: center;
-    align-items: center;
-*/
     height: auto;
 }
+*/
 
+.slider{
+    width:80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+
+/*
 .slider img {
     width: 100%;
     height: auto;
 }
+*/
 
-.slick-prev:before,
+/*
 .slick-next:before {
     color: #000;
 }
+*/
 
+
+#Images{
+    position: relative;
+    z-index: -1;
+}
 
 
 
@@ -337,3 +345,44 @@ ul {
     margin: 25px 0;
     text-align: center;
 }
+
+
+
+.fuwatAnime { 
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+} 
